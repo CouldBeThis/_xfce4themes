@@ -23,7 +23,7 @@ useful documentation:
 @define-color COLORNAME #1a1a1a;
 @define-color COLORNAME #1a66ff;
 @define-color COLORNAME #1f3d7a;
-@define-color COLORNAME #232323;
+@define-color @black #232323;
 @define-color COLORNAME #252525;
 @define-color COLORNAME #2C2C2C;
 @define-color COLORNAME #2a2a2a;
@@ -548,12 +548,12 @@ infobar {
 .question {
   border-width: 1px;
   border-style: solid;
-  border-color: #232323;
+  border-color: @black;
   color: @white;
   background-image: none;
   background-color: #2C2C2C; }
   .question button {
-    border-color: #232323;
+    border-color: @black;
     color: @white;
     background-image: none;
     background-color: #303030; }
